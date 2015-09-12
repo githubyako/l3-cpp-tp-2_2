@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yako/projects/tp2_2/element.h
+string
+-
+sstream
+-
+iostream
+-
+
+/home/yako/projects/tp2_2/objet.h
+element.h
+/home/yako/projects/tp2_2/element.h
+
+/home/yako/projects/tp2_2/personnage.cpp
+personnage.h
+/home/yako/projects/tp2_2/personnage.h
+
+/home/yako/projects/tp2_2/personnage.h
+element.h
+/home/yako/projects/tp2_2/element.h
+objet.h
+/home/yako/projects/tp2_2/objet.h
+
