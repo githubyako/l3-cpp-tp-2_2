@@ -88,6 +88,44 @@ bool Carte::checkintersect(const Element& elt1, const Element& elt2)
       result = true; 
     }
   }
-  return result;
+  return result; // retourne true si un overlap est trouvé
 }
 
+bool Carte::checkdeplacement(Personnage& perso, char * direction)
+{
+  bool result = true;
+  Personnage* temppers = new Personnage(perso, "cobaye");
+  switch (*direction){
+    case 'N':
+      // deplacement nord
+      temppers->changey(temppers->getelty() + 1);
+      break;
+    case 'S':
+      // depl sud
+      temppers->changey(temppers->getelty() - 1);
+      break;
+    case 'E':
+      // deplacement est
+      temppers->changex(temppers->geteltx() + 1);
+      break;
+    case 'W':
+      // deplacement ouest
+      temppers->changex(temppers->geteltx() - 1);
+      break;  
+  }
+  for(unsigned int i=0;i<50;i++){
+	if(checkintersect(temppers, tabobjets[i]) == true){
+	  result = false;
+	  break;
+	}else if(checkintersect(temppers, tabobstacles[i]) == true){
+	  result = false;
+	  break; 
+	}else if(checkintersect(temppers, tabpersonnages[i]) == true){
+	  result = false;
+	  break;
+	
+	}
+  }
+  delete[] temppers;
+  return result; // retourne true si le deplacement est POSSIBLE
+}

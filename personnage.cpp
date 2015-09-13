@@ -1,9 +1,17 @@
 #include "personnage.h"
 using namespace std;
 
-// constructeur
+// constructeurs
 Personnage::Personnage(int x, int y, int w, int h, const string& newnom): Element(x, y, w, h), nompers(newnom), pointspers(0)
 {}
+
+Personnage::Personnage(const Personnage& perstobecpd, const string& newnom): Element(x,y ,w ,h ), nompers(newnom), pointspers(0)
+{
+  x = perstobecpd.geteltx();
+  y = perstobecpd.getelty();
+  w = perstobecpd.geteltw();
+  h = perstobecpd.getelth();
+}
 
 // accesseurs
 int Personnage::getpointspers() const

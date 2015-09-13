@@ -12,6 +12,7 @@ public:
   // constructeurs
   Personnage(int x, int y, int w, int h, const string & newnom);
 
+  Personnage(Personnage const & perstobecpd, const string & newnom);
   // accesseurs
   int getpointspers() const;
   string getnom() const;

@@ -23,6 +23,7 @@ public:
 
   void affichercarte();
   bool checkintersect(Element const & elt1, Element const & elt2);
+  bool checkdeplacement(Personnage & perso, char  * direction);
   ~Carte();
 };
 
