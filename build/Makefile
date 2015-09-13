@@ -156,6 +156,30 @@ tp2_2/fast:
 	$(MAKE) -f CMakeFiles/tp2_2.dir/build.make CMakeFiles/tp2_2.dir/build
 .PHONY : tp2_2/fast
 
+carte.o: carte.cpp.o
+.PHONY : carte.o
+
+# target to build an object file
+carte.cpp.o:
+	$(MAKE) -f CMakeFiles/tp2_2.dir/build.make CMakeFiles/tp2_2.dir/carte.cpp.o
+.PHONY : carte.cpp.o
+
+carte.i: carte.cpp.i
+.PHONY : carte.i
+
+# target to preprocess a source file
+carte.cpp.i:
+	$(MAKE) -f CMakeFiles/tp2_2.dir/build.make CMakeFiles/tp2_2.dir/carte.cpp.i
+.PHONY : carte.cpp.i
+
+carte.s: carte.cpp.s
+.PHONY : carte.s
+
+# target to generate assembly for a file
+carte.cpp.s:
+	$(MAKE) -f CMakeFiles/tp2_2.dir/build.make CMakeFiles/tp2_2.dir/carte.cpp.s
+.PHONY : carte.cpp.s
+
 element.o: element.cpp.o
 .PHONY : element.o
 
@@ -289,6 +313,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... tp2_2"
+	@echo "... carte.o"
+	@echo "... carte.i"
+	@echo "... carte.s"
 	@echo "... element.o"
 	@echo "... element.i"
 	@echo "... element.s"

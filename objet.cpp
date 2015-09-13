@@ -1,14 +1,14 @@
 #include "objet.h"
 
-Objet::Objet(): Element(x,y ,w ,h), objpoints()
+Objet::Objet(int x, int y, int w, int h, int points): Element(x, y, w, h), objpoints(points)
+{}
+
+
+
+
+int Objet::getobjpoints() const
 {
-
-}
-
-
-int Objet::getobjpoints(const Objet& obj)
-{
-  return obj.objpoints;
+  return objpoints;
 }
 
 string Objet::toString()

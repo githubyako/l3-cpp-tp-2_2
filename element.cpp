@@ -106,27 +106,26 @@ bool Taille::taillecompare(const Taille& TailleToCompare)
  */
 
 // constructeurs
-
 Element::Element(int e_x, int e_y, int e_w, int e_h): Position(e_x, e_y), Taille(e_w, e_h)
 {}
 
 // accesseurs
-int Element::geteltx()
+int Element::geteltx() const
 {
   return x;
 }
 
-int Element::getelty()
+int Element::getelty() const
 {
   return y;
 }
 
-int Element::geteltw()
+int Element::geteltw() const
 {
   return w;
 }
 
-int Element::getelth()
+int Element::getelth() const
 {
   return h;
 }

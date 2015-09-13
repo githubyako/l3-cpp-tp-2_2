@@ -49,9 +49,32 @@ include CMakeFiles/tp2_2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/tp2_2.dir/flags.make
 
+CMakeFiles/tp2_2.dir/carte.cpp.o: CMakeFiles/tp2_2.dir/flags.make
+CMakeFiles/tp2_2.dir/carte.cpp.o: ../carte.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/yako/projects/tp2_2/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/tp2_2.dir/carte.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tp2_2.dir/carte.cpp.o -c /home/yako/projects/tp2_2/carte.cpp
+
+CMakeFiles/tp2_2.dir/carte.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp2_2.dir/carte.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yako/projects/tp2_2/carte.cpp > CMakeFiles/tp2_2.dir/carte.cpp.i
+
+CMakeFiles/tp2_2.dir/carte.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp2_2.dir/carte.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yako/projects/tp2_2/carte.cpp -o CMakeFiles/tp2_2.dir/carte.cpp.s
+
+CMakeFiles/tp2_2.dir/carte.cpp.o.requires:
+.PHONY : CMakeFiles/tp2_2.dir/carte.cpp.o.requires
+
+CMakeFiles/tp2_2.dir/carte.cpp.o.provides: CMakeFiles/tp2_2.dir/carte.cpp.o.requires
+	$(MAKE) -f CMakeFiles/tp2_2.dir/build.make CMakeFiles/tp2_2.dir/carte.cpp.o.provides.build
+.PHONY : CMakeFiles/tp2_2.dir/carte.cpp.o.provides
+
+CMakeFiles/tp2_2.dir/carte.cpp.o.provides.build: CMakeFiles/tp2_2.dir/carte.cpp.o
+
 CMakeFiles/tp2_2.dir/objet.cpp.o: CMakeFiles/tp2_2.dir/flags.make
 CMakeFiles/tp2_2.dir/objet.cpp.o: ../objet.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yako/projects/tp2_2/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/yako/projects/tp2_2/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/tp2_2.dir/objet.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tp2_2.dir/objet.cpp.o -c /home/yako/projects/tp2_2/objet.cpp
 
@@ -74,7 +97,7 @@ CMakeFiles/tp2_2.dir/objet.cpp.o.provides.build: CMakeFiles/tp2_2.dir/objet.cpp.
 
 CMakeFiles/tp2_2.dir/obstacle.cpp.o: CMakeFiles/tp2_2.dir/flags.make
 CMakeFiles/tp2_2.dir/obstacle.cpp.o: ../obstacle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yako/projects/tp2_2/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/yako/projects/tp2_2/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/tp2_2.dir/obstacle.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tp2_2.dir/obstacle.cpp.o -c /home/yako/projects/tp2_2/obstacle.cpp
 
@@ -97,7 +120,7 @@ CMakeFiles/tp2_2.dir/obstacle.cpp.o.provides.build: CMakeFiles/tp2_2.dir/obstacl
 
 CMakeFiles/tp2_2.dir/personnage.cpp.o: CMakeFiles/tp2_2.dir/flags.make
 CMakeFiles/tp2_2.dir/personnage.cpp.o: ../personnage.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yako/projects/tp2_2/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/yako/projects/tp2_2/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/tp2_2.dir/personnage.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tp2_2.dir/personnage.cpp.o -c /home/yako/projects/tp2_2/personnage.cpp
 
@@ -120,7 +143,7 @@ CMakeFiles/tp2_2.dir/personnage.cpp.o.provides.build: CMakeFiles/tp2_2.dir/perso
 
 CMakeFiles/tp2_2.dir/element.cpp.o: CMakeFiles/tp2_2.dir/flags.make
 CMakeFiles/tp2_2.dir/element.cpp.o: ../element.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yako/projects/tp2_2/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/yako/projects/tp2_2/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/tp2_2.dir/element.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tp2_2.dir/element.cpp.o -c /home/yako/projects/tp2_2/element.cpp
 
@@ -143,7 +166,7 @@ CMakeFiles/tp2_2.dir/element.cpp.o.provides.build: CMakeFiles/tp2_2.dir/element.
 
 CMakeFiles/tp2_2.dir/main.cpp.o: CMakeFiles/tp2_2.dir/flags.make
 CMakeFiles/tp2_2.dir/main.cpp.o: ../main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yako/projects/tp2_2/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/yako/projects/tp2_2/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/tp2_2.dir/main.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tp2_2.dir/main.cpp.o -c /home/yako/projects/tp2_2/main.cpp
 
@@ -166,6 +189,7 @@ CMakeFiles/tp2_2.dir/main.cpp.o.provides.build: CMakeFiles/tp2_2.dir/main.cpp.o
 
 # Object files for target tp2_2
 tp2_2_OBJECTS = \
+"CMakeFiles/tp2_2.dir/carte.cpp.o" \
 "CMakeFiles/tp2_2.dir/objet.cpp.o" \
 "CMakeFiles/tp2_2.dir/obstacle.cpp.o" \
 "CMakeFiles/tp2_2.dir/personnage.cpp.o" \
@@ -175,6 +199,7 @@ tp2_2_OBJECTS = \
 # External object files for target tp2_2
 tp2_2_EXTERNAL_OBJECTS =
 
+tp2_2: CMakeFiles/tp2_2.dir/carte.cpp.o
 tp2_2: CMakeFiles/tp2_2.dir/objet.cpp.o
 tp2_2: CMakeFiles/tp2_2.dir/obstacle.cpp.o
 tp2_2: CMakeFiles/tp2_2.dir/personnage.cpp.o
@@ -189,6 +214,7 @@ tp2_2: CMakeFiles/tp2_2.dir/link.txt
 CMakeFiles/tp2_2.dir/build: tp2_2
 .PHONY : CMakeFiles/tp2_2.dir/build
 
+CMakeFiles/tp2_2.dir/requires: CMakeFiles/tp2_2.dir/carte.cpp.o.requires
 CMakeFiles/tp2_2.dir/requires: CMakeFiles/tp2_2.dir/objet.cpp.o.requires
 CMakeFiles/tp2_2.dir/requires: CMakeFiles/tp2_2.dir/obstacle.cpp.o.requires
 CMakeFiles/tp2_2.dir/requires: CMakeFiles/tp2_2.dir/personnage.cpp.o.requires

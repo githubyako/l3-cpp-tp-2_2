@@ -6,9 +6,9 @@ class Objet: public Element
 private: 
   int objpoints;
 public:
-  Objet();
+  Objet(int x, int y, int w, int h, int points);
   
-  int getobjpoints(Objet const & obj);
+  int getobjpoints() const;
   
   string toString();
   

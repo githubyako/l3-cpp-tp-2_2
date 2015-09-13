@@ -1,20 +1,22 @@
 #include "personnage.h"
 using namespace std;
+
+// constructeur
 Personnage::Personnage(int x, int y, int w, int h, const string& newnom): Element(x, y, w, h), nompers(newnom), pointspers(0)
 {}
 
-
-int Personnage::getpointspers(const Personnage& perso)
+// accesseurs
+int Personnage::getpointspers() const
 {
-  return perso.pointspers;
+  return pointspers;
 }
 
 
-string Personnage::getnom(const Personnage& perso)
+string Personnage::getnom() const
 {
-  return perso.nompers;
+  return nompers;
 }
-
+// méthodes
 string Personnage::toString()
 {
   ostringstream outflux;
@@ -25,5 +27,5 @@ string Personnage::toString()
 
 void Personnage::ramasser(Objet const & ObjToLoot)
 {
-  pointspers += Objet::getobjpoints(ObjToLoot); 
+  pointspers += ObjToLoot.getobjpoints(); 
 }

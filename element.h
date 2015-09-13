@@ -10,6 +10,7 @@ class Position
 {
 protected:
   int x;
+  
   int y;
 public:
   // constructeurs
@@ -32,7 +33,7 @@ protected:
   unsigned int h;
 public:
   // constructeurs
-  Taille(const unsigned int height, const unsigned int width);
+  Taille(const unsigned int width, const unsigned int height);
   Taille(Taille const & TailleToCopy);
   // accesseurs
   int getw(Taille const & tail);
@@ -53,10 +54,10 @@ public:
   
   // accesseurs
   
-  int geteltx();
-  int getelty();
-  int geteltw();
-  int getelth();
+  int geteltx() const;
+  int getelty() const;
+  int geteltw() const;
+  int getelth() const;
 
   // méthodes
   

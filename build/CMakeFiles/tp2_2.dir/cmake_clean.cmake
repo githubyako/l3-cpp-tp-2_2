@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/tp2_2.dir/carte.cpp.o"
   "CMakeFiles/tp2_2.dir/objet.cpp.o"
   "CMakeFiles/tp2_2.dir/obstacle.cpp.o"
   "CMakeFiles/tp2_2.dir/personnage.cpp.o"
