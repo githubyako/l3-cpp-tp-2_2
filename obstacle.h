@@ -4,7 +4,7 @@
 class Obstacle: public Element
 {
 public:
-  Obstacle(int x, int y, int w, int h);
+  Obstacle(Position pos, Taille tail);
   
 };
 

@@ -1,6 +1,6 @@
 #include "objet.h"
 
-Objet::Objet(int x, int y, int w, int h, int points): Element(x, y, w, h), objpoints(points)
+Objet::Objet(Position pos, Taille tail, int points): Element(pos,tail), objpoints(points)
 {}
 
 

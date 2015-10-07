@@ -6,7 +6,7 @@ class Objet: public Element
 private: 
   int objpoints;
 public:
-  Objet(int x, int y, int w, int h, int points);
+  Objet(Position pos, Taille tail, int points);
   
   int getobjpoints() const;
   

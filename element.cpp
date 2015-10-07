@@ -106,7 +106,7 @@ bool Taille::taillecompare(const Taille& TailleToCompare)
  */
 
 // constructeurs
-Element::Element(int e_x, int e_y, int e_w, int e_h): Position(e_x, e_y), Taille(e_w, e_h)
+Element::Element(Position pos, Taille tail): Position(pos), Taille(tail)
 {}
 
 // accesseurs

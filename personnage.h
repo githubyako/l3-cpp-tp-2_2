@@ -10,7 +10,7 @@ private:
   string nompers;
 public:
   // constructeurs
-  Personnage(int x, int y, int w, int h, const string & newnom);
+  Personnage(Position pos, Taille tail, const string & newnom);
 
   Personnage(Personnage const & perstobecpd, const string & newnom);
   // accesseurs

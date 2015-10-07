@@ -50,7 +50,7 @@ class Element:
 {
 public:
   // constructeurs
-  Element(int x, int y, int w, int h);
+  Element(Position pos, Taille tail);
   
   // accesseurs
   

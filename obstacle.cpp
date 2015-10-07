@@ -1,4 +1,5 @@
 #include "obstacle.h"
 
-Obstacle::Obstacle(int x, int y, int w, int h): Element(x, y, w, h)
+Obstacle::Obstacle(Position pos, Taille tail): Element(pos, tail)
 {}
+					  

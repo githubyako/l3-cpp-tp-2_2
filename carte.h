@@ -17,13 +17,13 @@ public:
   Carte(const unsigned int width, const unsigned int height);
   
   // méthodes
-  void ajouterperso(int x, int y, int w, int h, string & perso);
-  void ajouterobstacle(int x, int y, int w, int h);
-  void ajouterobjet(int x, int y, int w, int h, int pts);
+  void ajouterperso(Personnage const & perso);
+  void ajouterobstacle(Obstacle const & obst);
+  void ajouterobjet(Objet const & obj);
 
   void affichercarte();
   bool checkintersect(Element const & elt1, Element const & elt2);
-  bool checkdeplacement(Personnage & perso, char  * direction);
+  bool checkdeplacement(Personnage & perso, const char * direction);
   ~Carte();
 };
 

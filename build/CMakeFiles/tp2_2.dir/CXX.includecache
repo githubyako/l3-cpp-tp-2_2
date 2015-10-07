@@ -6,21 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/yako/projects/tp2_2/carte.cpp
-carte.h
-/home/yako/projects/tp2_2/carte.h
-
-/home/yako/projects/tp2_2/carte.h
-element.h
-/home/yako/projects/tp2_2/element.h
-personnage.h
-/home/yako/projects/tp2_2/personnage.h
-obstacle.h
-/home/yako/projects/tp2_2/obstacle.h
-objet.h
-/home/yako/projects/tp2_2/objet.h
-
-/home/yako/projects/tp2_2/element.h
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-2_2/element.h
 string
 -
 sstream
@@ -28,17 +14,17 @@ sstream
 iostream
 -
 
-/home/yako/projects/tp2_2/objet.h
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-2_2/objet.h
 element.h
-/home/yako/projects/tp2_2/element.h
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-2_2/element.h
 
-/home/yako/projects/tp2_2/obstacle.h
-element.h
-/home/yako/projects/tp2_2/element.h
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-2_2/personnage.cpp
+personnage.h
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-2_2/personnage.h
 
-/home/yako/projects/tp2_2/personnage.h
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-2_2/personnage.h
 element.h
-/home/yako/projects/tp2_2/element.h
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-2_2/element.h
 objet.h
-/home/yako/projects/tp2_2/objet.h
+/home/etud/info/l3info/nroux/projects/l3-cpp-tp-2_2/objet.h
 

@@ -2,15 +2,15 @@
 using namespace std;
 
 // constructeurs
-Personnage::Personnage(int x, int y, int w, int h, const string& newnom): Element(x, y, w, h), nompers(newnom), pointspers(0)
+Personnage::Personnage(Position pos, Taille tail, const string& newnom): Element(pos ,tail), nompers(newnom), pointspers(0)
 {}
 
-Personnage::Personnage(const Personnage& perstobecpd, const string& newnom): Element(x,y ,w ,h ), nompers(newnom), pointspers(0)
+Personnage::Personnage(const Personnage& perstobecpd, const string& newnom): Element(perstobecpd), nompers(newnom), pointspers(0)
 {
-  x = perstobecpd.geteltx();
+  /*x = perstobecpd.geteltx();
   y = perstobecpd.getelty();
   w = perstobecpd.geteltw();
-  h = perstobecpd.getelth();
+  h = perstobecpd.getelth();*/
 }
 
 // accesseurs
